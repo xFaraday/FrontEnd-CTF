@@ -1,0 +1,226 @@
+@font-face {
+    font-family: 'killthenoise';
+    src: url('/FONTS/Kill The Noise.otf')
+}
+
+body {
+    margin: 0;
+    
+    
+}
+
+
+
+
+.navbar{
+ background:#000;
+}
+.nav-link , .navbar-brand{
+ color: #ff0;
+   
+    
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+ font-family: killthenoise;
+text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de;
+-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.nav-link:hover{
+color: #ff0;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff;
+}
+.navbar-collapse{
+ justify-content: center;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+li {
+    font-size: 3em;
+    
+}
+
+/* challenge header */
+#challengebar {
+    margin-top: 10em;
+    
+    
+}
+#title {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.green {
+    background-color: green;
+    width: 1em;
+    height: 1em;
+    
+    
+}
+
+.box {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
+    margin-bottom: 1em;
+}
+
+h3 {
+    font-size: 1em;
+    
+}
+
+h4 {
+    text-align: center;
+    
+}
+
+.box2 {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    
+}
+
+.purple {
+    background-color: purple;
+    width: 1em;
+    height: 1em;
+    
+}
+
+.box3 {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    
+}
+
+.red {
+    background-color: red;
+    width: 1em;
+    height: 1em;
+    
+}
+
+.box4 {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+
+}
+
+.Blue {
+    background-color: blue;
+    width: 1em;
+    height: 1em;
+    
+    
+}
+
+.box5 {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    
+    
+}
+
+.Orange {
+    background-color: orange;
+    width: 1em;
+    height: 1em;
+    
+    
+}
+
+.box6 {
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-evenly;
+    
+    
+}
+
+.yellow {
+    background-color: yellow;
+    width: 1em;
+    height: 1em;
+    
+    
+}
+
+/* button map */
+#buttonmap {
+    background-color: lightgrey;
+    
+}
+
+
+#rowcenter {
+    display: flex;
+    justify-content: center;
+    
+}
+
+#starter {
+    box-shadow: 0 0 6.56px 1.44px rgba(255,255,0,.52), 0 0 29px 0 #ff0;
+    
+}
+#Web {
+    box-shadow: 0 0 6.56px 1.44px rgba(0,0,255,.52), 0 0 29px 0 rgb(0,0,255);
+
+}
+
+#Crypto {
+     box-shadow: 0 0 6.56px 1.44px rgba(255,0,0,.52), 0 0 29px 0 rgb(255,0,0);
+    
+}
+
+#Forensics {
+    box-shadow: 0 0 6.56px 1.44px rgba(0,153,0,.52), 0 0 29px 0 rgb(0,153,0);
+}
+
+#reverseengin [
+    
+]
+
+#shell {
+    
+}
+
+#social {
+    box-shadow: 0 0 6.56px 1.44px rgba(255,153,255,.52), 0 0 29px 0 rgb(255,153,255);
+
+}
+
+
+.row {
+    margin-bottom: 2em;
+    
+}
+.btn {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    padding: .5em;
+}
+
+.btn:hover {
+    font-size: 2.5em;
+    transition: all 1s ease-in-out;
+    padding: 0;
+}
+
+
+

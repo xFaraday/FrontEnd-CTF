@@ -1,0 +1,111 @@
+@font-face {
+    font-family: 'doom';
+    src: url('/FONTS/AmazDooMLeft.ttf')
+}
+
+@font-face {
+    font-family: 'killthenoise';
+    src: url('/FONTS/Kill The Noise.otf')
+}
+
+.navbar{
+ background:#000;
+}
+.nav-link , .navbar-brand{
+ color: #ff0;
+   
+    
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+ font-family: killthenoise;
+text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de;
+-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.nav-link:hover{
+color: #ff0;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff;
+}
+.navbar-collapse{
+ justify-content: center;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+li {
+    font-size: 3em;
+    
+}
+.navbar {
+    
+    
+}
+
+/* start art */
+
+.jumbotron {
+    background-image: url('/media/allthecyberspaces.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    padding-top: 10em;
+    margin: 0;
+    
+}
+
+/* start form */
+.card {
+    border: #696969;
+    
+}
+
+.card-body {
+    background-color: #D3D3D3;
+    
+    
+}
+.card-header {
+background-color: #696969;    
+   
+    
+}
+
+.card-footer {
+background-color: #696969;
+    
+}
+h1 {
+    text-align: center;
+    font-family: doom;
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2 {
+    font-family: doom;
+    margin 0;
+}
+
+h3 {
+    
+    
+}
+
+
+
+h4 {
+    font-size: 2rem;
+    font-family: doom;
+    margin: 0;
+}
+
+
+.form-group {
+    margin-bottom: 5em;
+    
+}

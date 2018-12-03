@@ -1,0 +1,317 @@
+@font-face {
+    font-family: 'killthenoise';
+    src: url('../FONTS/Kill The Noise.otf')
+}
+@font-face {
+    font-family: 'doom';
+    src: url('../FONTS/AmazDooMRight.ttf')
+}
+
+@font-face {
+    font-family: 'virus';
+    src: url('../FONTS/Virus_01.ttf')
+}
+
+
+body {
+    
+    
+}
+
+
+
+.navbar{
+ background:#000;
+}
+.nav-link , .navbar-brand{
+ color: #ff0;
+   
+    
+ cursor: pointer;
+}
+.nav-link{
+ margin-right: 1em !important;
+ font-family: killthenoise;
+text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #ff00de , 0 0 70px #ff00de , 0 0 80px #ff00de , 0 0 100px #ff00de;
+-webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+-moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+-o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+.nav-link:hover{
+color: #ff0;
+    text-shadow: 0 0 10px rgba(255,255,255,1) , 0 0 20px rgba(255,255,255,1) , 0 0 30px rgba(255,255,255,1) , 0 0 40px #00ffff , 0 0 70px #00ffff , 0 0 80px #00ffff , 0 0 100px #00ffff;
+}
+.navbar-collapse{
+ justify-content: center;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/* start art css */
+
+.header {
+background-image: url('../media/mainpic.jpg');
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.overlay {
+position: absolute;
+min-height: 100%;
+min-width: 100%;
+left: 0;
+top: 0;
+background: rgba(244, 244, 244, 0);
+
+}
+
+.description {
+top: 30%;
+margin: auto;
+padding: 2dm;
+text-align: center;
+}
+
+h3 {
+color: darkred;
+font-family: 'virus';
+font-size: 4rem;
+}
+
+
+
+/* info css */
+
+
+#greygrid {
+ 
+  background-color: rgba(86,61,124,.15);
+  border: 1px solid rgba(86,61,124,.2);
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#info1 {
+     font-size: 2em;
+    font-family: Kelly Slab;
+    
+}
+
+
+#info1mid {
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid rgba(86,61,124,.2);
+    
+}
+
+/* faq css */
+
+#faqtitlemid {
+    background-color: #191919;
+    color: white;
+    font-size: 4em;
+    font-family: Kelly Slab;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+
+}
+h1 {
+    color: white;
+    
+}
+
+h2 {
+    color: #C0C0C0;
+    
+}
+
+#faqtitlemid:hover {
+   
+    
+}
+
+#faq {
+    background-color: #191919;
+   
+}
+
+#faqcont {
+   
+}
+
+
+ul {
+    text-align: center;
+    margin: 0;
+}
+
+li {
+    font-size: 3em;
+    color: white;
+}
+
+.smallblink1 {
+    height: 1em;
+    width: 1em;
+    background-color: #000;
+    animation: blinker 1.5s step-start infinite;
+
+}
+.smallblink2 {
+    height: 1em;
+    width: 1em;
+    background-color: #000;
+    animation: blinker 2.0s step-start infinite;
+
+}
+.smallblink3 {
+    height: 1em;
+    width: 1em;
+    background-color: #000;
+    animation: blinker 2.5s step-start infinite;
+
+}
+.smallblink4 {
+    height: 1em;
+    width: 1em;
+    background-color: #000;
+    animation: blinker 3.0s step-start infinite;
+
+}
+.smallblink5 {
+    height: 1em;
+    width: 1em;
+    background-color: #000;
+    animation: blinker 3.5s step-start infinite;
+
+}
+
+@keyframes blinker {
+				0% { 	background-color: #000; box-shadow: 0 0 2px 0 rbga(0,0,0,.52);}
+				50% {background-color: #ff0; box-shadow: 0 0 6.56px 1.44px rgba(255,255,0,.52), 0 0 29px 0 #ff0;}
+
+			}
+
+
+
+.smallblink:active {
+    background-color: #ff0;
+    
+    
+}
+
+#blinkcont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+
+    
+}
+
+#faqgrid {
+        background-color: #191919;
+
+    
+    
+}
+
+/* training css start */
+
+
+.termsection {
+    background-color: lightgreen;
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+#terminalcont {
+    border: 3px solid black;
+    border-radius: 1em;
+    min-height: 30em;
+    
+}
+
+#terminalheader {
+    background-color: lightgrey;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+}
+
+h4 {
+    text-align: center;
+    padding-bottom: 2em;
+    
+}
+
+#terminal {
+    background-color: black;
+    color: green;
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+    min-height: 25em;
+}
+
+ul#termlist li {
+    display: inline;
+    font-size: 1em;
+    color: green;
+    padding-right: 3em;
+    
+}
+
+#trainingtitlemid {
+    background-color: lightgreen;
+    color:#191919;
+    font-size: 4em;
+    font-family: Kelly Slab;
+    align-content: center;
+    text-align: center;
+    transition: width 1s;
+    margin-bottom: 1em;
+   
+    
+}
+
+
+/* footer css start */
+
+.footersection {
+    background-color: #191919;
+    
+    
+}
+
+#contacttitlemid {
+    background-color: #191919;
+    color: lightgray;
+    font-size: 4em;
+    font-family: Kelly Slab;
+    align-content: center;
+    text-align: center;
+    transition: width 1s;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    border-bottom: 2px solid lightgrey;
+}
+
+#contactblock {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1em;
+    
+    
+}
+
