@@ -17,7 +17,7 @@ html:
         <div class="card-body">
             <h6 class="card-subtitle">Front-end Web Designer/Problem Designer</h6>
             <p class="card-text">
-                I am gay pretty much and some other shit maybe testimonial I dont fucking know tbh
+               lorem ipsum
             </p>
         </div>
         <div class="card-footer">
@@ -33,7 +33,7 @@ html:
         <div class="card-body">
             <h6 class="card-subtitle">Back-End Web Designer/Problem Designer/General Wizard</h6>
             <p class="card-text">
-                I am gay pretty much and some other shit maybe testimonial I dont fucking know tbh
+               lorem ipsum
             </p>
         </div>
         <div class="card-footer">
